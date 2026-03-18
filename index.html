@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Site Pro-Max</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#f2f2f2;
+}
+
+/* CONTAINER PRINCIPAL */
+.container{
+    width:85%;
+    margin:30px auto;
+    background:white;
+    border-radius:18px;
+    overflow:hidden;
+}
+
+/* IMAGEM PRINCIPAL */
+.topo{
+    position:relative;
+}
+
+.topo img{
+    width:100%;
+    height:420px;
+    object-fit:cover;
+}
+
+.titulo{
+    position:absolute;
+    bottom:30px;
+    left:30px;
+    color:white;
+    font-size:32px;
+    font-weight:bold;
+    width:70%;
+}
+
+/* BARRA VERMELHA */
+.barra{
+    display:flex;
+    background:#c4170c;
+    padding:20px;
+    gap:20px;
+    border-bottom-left-radius:18px;
+    border-bottom-right-radius:18px;
+}
+
+.barra-item{
+    flex:1;
+    color:white;
+    font-weight:bold;
+    font-size:15px;
+}
+
+/* DIVISÃO */
+.divisor{
+    height:2px;
+    background:#e5e5e5;
+}
+
+/* CARDS */
+.cards{
+    display:flex;
+    gap:25px;
+    padding:25px;
+}
+
+.card{
+    flex:1;
+}
+
+.card img{
+    width:100%;
+    height:170px;
+    object-fit:cover;
+    border-radius:14px;
+}
+
+.card h2{
+    color:#c4170c;
+    font-size:20px;
+    margin-top:12px;
+}
+
+.card p{
+    color:#555;
+    font-size:15px;
+}
+
+/* EFEITO PROFISSIONAL */
+.card:hover{
+    transform:translateY(-5px);
+    transition:0.3s;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- IMAGEM PRINCIPAL -->
+    <div class="topo">
+        <img src="imagem 1.png">
+        <div class="titulo">
+            Trump afirma que 'tudo foi destruído' no Irã e promete 3ª onda de ataques
+        </div>
+    </div>
+
+    <!-- BARRA DE NOTÍCIAS -->
+    <div class="barra">
+        <div class="barra-item">
+            ● Israel ataca reunião que definiria o novo líder do Irã, diz jornal
+        </div>
+
+        <div class="barra-item">
+            ● Agência: estrondos são ouvidos em Dubai, Abu Dhabi e Doha; SIGA
+        </div>
+
+        <div class="barra-item">
+            ● General do Irã ameaça centros econômicos do Oriente Médio
+        </div>
+    </div>
+
+    <div class="divisor"></div>
+
+    <!-- NOTÍCIAS -->
+    <div class="cards">
+
+        <div class="card">
+            <img src="imagem 2.jpg">
+            <h2>Multidão no Irã vai a funeral de crianças; ONU pede apuração</h2>
+            <p>● Escalada nuclear pode ser fatal, diz especialista</p>
+        </div>
+
+        <div class="card">
+            <img src="imagem 3.webp">
+            <h2>Trump ameaça usar bases da Espanha sem autorização</h2>
+            <p>● O que está por trás do conflito entre EUA e Irã?</p>
+        </div>
+
+        <div class="card">
+            <img src="imagem 4.jpg">
+            <h2>Valores da guerra: drones de US$ 20 mil x mísseis de US$ 4 mi</h2>
+            <p>● Emirados criam corredor de segurança para voos</p>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
